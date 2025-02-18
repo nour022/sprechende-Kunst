@@ -4,7 +4,7 @@ export interface IImages {
   description: string;
   links: string[];
   audio_link?: string;
-  status: string[];
+  status?: string;
   created_date?: string;
   label_ID: string; // ILabel -> label_ID
   editedBy?: string[]; // IUsers -> user_ID
