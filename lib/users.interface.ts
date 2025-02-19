@@ -7,7 +7,7 @@ export interface IUsers {
   auth_token?: string;
   r_Password_token?: string;
   password?: string;
-  role: string;
-  created_Date: Date;
+  role?: string;
+  created_Date?: Date;
   artistProfile_ID?: string; // IKunstschaffende -> person_ID
 }

@@ -5,5 +5,5 @@ export interface ILabel {
   image: string;
   slider_links?: string[];
   type?: string;
-  created_date: Date;
+  created_date?: Date;
 }
