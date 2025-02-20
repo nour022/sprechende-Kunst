@@ -1,5 +1,6 @@
 export interface IImages {
   img_ID?: string;
+  img: string;
   name: string;
   description: string;
   links?: string[];
