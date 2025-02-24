@@ -5,5 +5,5 @@ export interface IArtists {
   description: string;
   image: any;
   slug?: string;
-  status?: string;
+  status: string;
 }

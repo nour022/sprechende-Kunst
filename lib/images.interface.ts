@@ -1,6 +1,5 @@
 export interface IImages {
   img_ID?: string;
-  img: string;
   name: string;
   description: string;
   links?: string[];
@@ -12,4 +11,5 @@ export interface IImages {
   author_person_ID: string; // IKunstschaffende -> person_ID
   views_num?: number;
   shares_num?: number;
+  img: string;
 }
