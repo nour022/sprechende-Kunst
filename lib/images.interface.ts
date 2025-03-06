@@ -6,10 +6,11 @@ export interface IImages {
   audio_link?: string;
   status?: string[];
   created_date?: string;
-  label_ID: string; // ILabel -> label_ID
-  editedBy?: string[]; // IUsers -> user_ID
-  author_person_ID: string; // IKunstschaffende -> person_ID
+  label_ID: string[];
+  editedBy?: string[];
+  author_person_ID: string;
   views_num?: number;
   shares_num?: number;
   img: string;
+  images?: string[];
 }
